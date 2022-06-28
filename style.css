@@ -1,0 +1,150 @@
+@charset "UTF-8";
+
+@import url('https://fonts.googleapis.com/css2?family=Lobster&family=Slabo+27px&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+
+body{ 
+    
+    background-image: url(image/abstract-background-with-red-lines.jpg);
+    background-repeat:no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    background-size:cover;
+
+}
+
+
+
+h1{
+    font-family:'Lobster', cursive;
+    font-weight: bold;
+    text-align: center;
+    font-size: 40px;
+    color: #000000;
+    display: flex;
+    padding: 10px;
+    
+
+
+}
+
+.imagem{
+    border-radius:50%;
+    padding-left: 60px;
+    padding-right:60px;
+
+}
+
+
+main,nav{
+    background-color: #ffffff;
+    padding: 60px;
+    position:relative;
+    max-width:300px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+
+   
+}
+
+main>p{
+   padding-top: 10px; 
+   font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    color: #000000;
+    line-height: 1.6em;
+}
+
+.conteiner{
+ 
+margin-top: 0px;
+padding-top:0px;
+padding-bottom:30px;
+}
+
+
+
+.estilo{
+background: linear-gradient(0deg, rgba(27,24,65,1) 11%, rgba(167,18,83,1) 53%, rgba(201,55,55,1) 80%);
+border-radius: 10px;
+height: 5px;
+text-align:justify;
+color: #ffffff;
+margin-top:20px ;
+
+}
+
+nav>p{
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bolder;
+    
+}
+
+a{
+    right: 30px;
+    padding: 20px;
+}
+
+
+
+.ajuste{
+
+margin-bottom:-5px;
+
+}
+
+a>img:hover{
+    
+    transition-duration: 2s;
+    animation:pulse 2s infinite;
+    border-radius: 30px;
+
+
+}
+
+/*efeito de animação nos icones */
+
+@keyframes pulse{
+    0% {
+		transform: scale(0.98);
+		box-shadow: 0 0 0 0 rgba(161, 27, 27, 0.7);
+	}
+
+	70% {
+		transform: scale(1.1);
+		box-shadow: 0 0 0 10px rgba(170, 52, 81, 0.363);
+	}
+
+	100% {
+		transform: scale(0.95);
+		box-shadow: 0 0 0 0 rgba(0, 0, 0, 0);
+	}
+}
+
+footer{
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #000000;
+    color: #ffffff;
+    padding: 10px;
+    position:relative;
+    max-width:400px;
+    margin-left: auto;
+    margin-right: auto;
+  
+}
+
+footer:hover{
+color: rgb(119, 85, 151);
+transition:0.9s;
+}
+
+
+
+
