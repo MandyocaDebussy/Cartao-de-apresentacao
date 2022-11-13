@@ -8,7 +8,7 @@ Fiz um portfólio sobre o que eu faço e nisso apliquei meus estudos com base no
 Para que eu posso acompanhar meu desempenho nas tecnologias que estou utilizando.
 ## 
 
-## tecnologia usadas:
+ tecnologia usadas:
 
 .HTML5
 .CSS3
