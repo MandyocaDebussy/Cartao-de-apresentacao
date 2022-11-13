@@ -1,0 +1,32 @@
+@charset "UTF-8";
+body {
+    background-color: rgba(240, 248, 255, 0.048);
+    margin: auto;
+}
+
+.range {
+    background-color: rgba(212, 19, 61, 0.884);
+    padding: 20px;
+}
+
+#carrosel {
+    padding-bottom: 10px;
+    padding: 40px;
+    content: "";
+    background: none;
+}
+
+.item {
+    margin: 10px;
+    padding: 20px;
+    background-image: none;
+}
+
+.carousel-control.left {
+    background: none;
+}
+
+.carousel-control.right {
+    background: none;
+    width: 50px;
+}

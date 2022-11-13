@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.0/font/bootstrap-icons.css">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="Otherstyle.css">
+    <link rel="icon" href="favicon-16x16.png">
+    <title>MandyocaDebussy</title>
+</head>
+<div>
+    <div class="range"></div>
+</div>
+
+<body>
+    <div id="carrosel">
+
+        <div class="container">
+            <h2></h2>
+            <div id="myCarousel" class="carousel slide">
+                <div class="carousel-inner" role="listbox">
+
+                    <div class="item active">
+                        <img src="image/imagem1.jpg" alt="Alucard" width="300" height="300" style="margin: auto;">
+                        <div class="carousel-caption">
+                        </div>
+                    </div>
+
+                    <div class="item">
+                        <img src="image/imagem2.jpg" alt="Blasphemous" width="300" height="300" style="margin: auto;">
+                        <div class="carousel-caption">
+                        </div>
+                    </div>
+
+                    <div class="item">
+                        <img src="image/imagem3.jpg" alt="Witch" width="300" height="300" style="margin: auto;">
+                        <div class="carousel-caption">
+                        </div>
+                    </div>
+
+                    <div class="item">
+                        <img src="image/imagem4.jpg" alt="Flower" width="300" height="300" style="margin: auto;">
+                        <div class="carousel-caption">
+                        </div>
+                    </div>
+
+                </div>
+
+                <!-- Left and right controls -->
+                <a class="left carousel-control" href="#myCarousel" role="button">
+                    <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+                    <span class="sr-only">Previous</span>
+                </a>
+                <a class="right carousel-control" href="#myCarousel" role="button" class="">
+                    <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+                    <span class="sr-only">Next</span>
+                </a>
+            </div>
+        </div>
+
+        <script>
+            $(document).ready(function() {
+                $("#myCarousel").carousel();
+                $(".item1").click(function() {
+                    $("#myCarousel").carousel(0);
+                });
+                $(".item2").click(function() {
+                    $("#myCarousel").carousel(1);
+                });
+                $(".item3").click(function() {
+                    $("#myCarousel").carousel(2);
+                });
+                $(".item4").click(function() {
+                    $("#myCarousel").carousel(3);
+                });
+                $(".item5").click(function() {
+                    $("#myCarousel").carousel(4);
+                });
+
+                // Enable Carousel Controls
+                $(".left").click(function() {
+                    $("#myCarousel").carousel("prev");
+                });
+                $(".right").click(function() {
+                    $("#myCarousel").carousel("next");
+                });
+            });
+        </script>
+    </div>
+    <!--Carrosel das imagens-->
+
+    <main id="card">
+        <h1>Amanda Debussy</h1>
+        <br>
+        <img src="image/portrait.jpg" width="180px" height="180px" class="imagem" alt="my icon made in pixel art">
+        <p style="word-break: keep-all;">Ola,sou Pixel Artist/Ilustradora e <br>aprendiz de Dev Web/front-end.Atualmente Curso Analise e Desenvolvimneto de Sistema, porem sempre criando artes novas no meu portfólio e Trabalhando em alguns jogos independentes. Acima, eu demonstro um pouco
+            do meu trabalho(Meus favoritos hehehehe)</p>
+        <div class="estilo">
+            <div></div>
+        </div>
+
+        <nav class="conteiner">
+
+            <p>Meus contatos para mais informações:</p>
+            <br>
+            <a href="https://www.instagram.com/debussy_art/" target="_blank"><img src="socialmidia/5279112_camera_instagram_social media_instagram logo_icon.png" width="37px" height="37px"></a>
+            <a href="https://mobile.twitter.com/debussyamanda" target="_blank"><img src="socialmidia/5279123_tweet_twitter_twitter logo_icon.png" width="37px" height="37px"></a>
+            <a href="https://www.linkedin.com/in/amanda-debussy-58aa90140/?originalSubdomain=br" target="_blank"><img src="socialmidia/Linkedin-Free-Download-PNG.png" class="ajuste"></a>
+        </nav>
+    </main>
+    <footer>
+        <p>É um prazer sua visita aqui! Para tratar sobre orçamento basta me procurar no discord <b>MandyDebussy#8410</b> <i class="bi-discord"></i></p>
+    </footer>
+</body>
+
+</html>
