@@ -1,6 +1,6 @@
 # Portifólio de apresentação
 
- http://myportofoliomandyoca.com/cartao-de-apresenhtacao
+ http://myportofoliomandyoca.com/index.html
 
 
 ##Nova Atualização
