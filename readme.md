@@ -17,6 +17,7 @@ Para que eu posso acompanhar meu desempenho nas tecnologias que estou utilizando
 .HTML5
 .CSS3
 .JS
+.Boostrap5
 
 
 
