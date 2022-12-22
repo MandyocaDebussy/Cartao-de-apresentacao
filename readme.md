@@ -1,6 +1,6 @@
 # Portifólio de apresentação
 
- http://myportofoliomandyoca.com/index.html
+https://mandyocadebussy.github.io/Cartao-de-apresentacao/
 
 
 ##Nova Atualização
