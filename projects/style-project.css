@@ -1,0 +1,70 @@
+@charset "UTF-8";
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    background-image: url(img-bg/abstract-background-with-red-lines.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+.range_conteiner {
+    background-color: #d4133df8;
+    padding: 30px;
+}
+
+#principal {
+    font-family: Arial, Helvetica, sans-serif;
+    color: #fff;
+    font-weight: bold;
+    white-space: normal;
+    margin-inline: 50px;
+    margin-top: 50px;
+    margin-bottom: 60px;
+    word-spacing: 3px;
+    line-height: 24px;
+}
+
+a {
+    color: rgb(229, 255, 0);
+    text-decoration: none;
+}
+
+h2 {
+    padding-bottom: 10px;
+    color: #8b0421;
+    font-size: 20px;
+}
+
+.img_range_conteiner {
+    margin-bottom: 10%;
+    background-color: #fff;
+    padding: 40px;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+img {
+    margin: 10px;
+    transition: transform 0.6s;
+    transform-style: preserve-3d;
+}
+
+.img_range_conteiner img:hover {
+    transform: rotateY(180deg);
+}
+
+.otherline {
+    background-color: #fff;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    color: #8b0421;
+    font-size: 20px;
+    padding: 30px;
+    font-weight: bold;
+}
+
+.ntf_conteiner img {}

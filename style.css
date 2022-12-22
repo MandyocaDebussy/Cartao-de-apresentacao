@@ -76,9 +76,9 @@
         justify-content: center;
         display: inline-flexbox;
         padding: 10px;
+        text-decoration: none;
     }
-    
-    .ajuste {}
+    /*.ajuste {}*/
     
     a>img:hover {
         transition-duration: 2s;
@@ -117,8 +117,7 @@
         color: rgb(223, 203, 241);
         transition: 0.3s;
     }
-    
-    i {}
+    /* i {}*/
     
     @media screen and (max-widht:720px) {
         main {
