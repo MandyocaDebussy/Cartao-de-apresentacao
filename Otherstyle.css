@@ -1,12 +1,20 @@
 @charset "UTF-8";
 body {
     background-color: rgba(240, 248, 255, 0.048);
-    margin: auto;
+    
 }
 
 .range {
-    background-color: #d4133df8;
-    padding: 10px;
+    background-color: #e20d3bf8;
+    padding: 5px;
+}
+
+.sticky{
+    position: sticky;
+    position: :-webkit-sticky;
+    top:0px;
+    
+    
 }
 
 #link {
@@ -28,10 +36,14 @@ p>a {
     padding: 20px;
 }
 
-p>a:hover,
-a:link {
-    color: rgb(252, 212, 218);
+ p>a:hover{
+    color: rgb(255, 251, 252);
     text-decoration: none;
+}
+
+
+a:link{
+    text-decoration:none ;
 }
 
 #carrosel {

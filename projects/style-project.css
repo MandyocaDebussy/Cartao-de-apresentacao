@@ -13,7 +13,7 @@ body {
 
 .range_conteiner {
     background-color: #d4133df8;
-    padding: 30px;
+    padding: 20px;
 }
 
 #principal {
@@ -34,10 +34,12 @@ a {
 }
 
 h2 {
-    padding-bottom: 10px;
+    padding-bottom: 30px;
     color: #8b0421;
     font-size: 20px;
 }
+
+
 
 .img_range_conteiner {
     margin-bottom: 10%;
@@ -51,6 +53,7 @@ img {
     margin: 10px;
     transition: transform 0.6s;
     transform-style: preserve-3d;
+    border-style:groove; 
 }
 
 .img_range_conteiner img:hover {
@@ -59,12 +62,30 @@ img {
 
 .otherline {
     background-color: #fff;
+    padding: 30px;
+    font-weight: bold;
+    text-align: center;
+    
+}
+
+.otherline > p{
+    padding-bottom:20px;
     font-family: Arial, Helvetica, sans-serif;
     text-align: center;
     color: #8b0421;
     font-size: 20px;
-    padding: 30px;
-    font-weight: bold;
 }
 
-.ntf_conteiner img {}
+
+.artigo_conteiner{
+    background-color: black;
+    padding: 30px;
+    color: #fff;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: small;
+}
+
+.range_conteiner2{
+    background-color:#35030e;
+    padding: 10px;
+    }
