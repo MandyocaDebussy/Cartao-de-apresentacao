@@ -1,7 +1,6 @@
 @charset "UTF-8";
 body {
     background-color: rgba(240, 248, 255, 0.048);
-    
 }
 
 .range {
@@ -9,12 +8,10 @@ body {
     padding: 5px;
 }
 
-.sticky{
+.sticky {
     position: sticky;
-    position: :-webkit-sticky;
-    top:0px;
-    
-    
+    position: : -webkit-sticky;
+    top: 0px;
 }
 
 #link {
@@ -36,14 +33,13 @@ p>a {
     padding: 20px;
 }
 
- p>a:hover{
+p>a:hover {
     color: rgb(255, 251, 252);
     text-decoration: none;
 }
 
-
-a:link{
-    text-decoration:none ;
+a:link {
+    text-decoration: none;
 }
 
 #carrosel {
@@ -66,4 +62,34 @@ a:link{
 .carousel-control.right {
     background: none;
     width: 50px;
+}
+
+
+/*Deu Um trabalho fazer isso mas aplicando dessa forma funciona. Não deixar o position:absolute; sozinho pois ele vai ficar por cima da propriedade abaixo*/
+
+.flip-card-inner {
+    transition: transform 0.6s;
+    transform-style: preserve-3d;
+}
+
+.flip-card:hover .flip-card-inner {
+    transform: rotateY(180deg);
+}
+
+.flip-card-front,
+.flip-card-back {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    backface-visibility: hidden;
+}
+
+.flip-card-front {
+    color: black;
+}
+
+.flip-card-back {
+    position: relative;
+    color: white;
+    transform: rotateY(180deg);
 }
