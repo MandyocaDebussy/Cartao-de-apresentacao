@@ -39,8 +39,6 @@ h2 {
     font-size: 20px;
 }
 
-
-
 .img_range_conteiner {
     margin-bottom: 10%;
     background-color: #fff;
@@ -53,7 +51,7 @@ img {
     margin: 10px;
     transition: transform 0.6s;
     transform-style: preserve-3d;
-    border-style:groove; 
+    border-style: groove;
 }
 
 .img_range_conteiner img:hover {
@@ -65,27 +63,44 @@ img {
     padding: 30px;
     font-weight: bold;
     text-align: center;
-    
 }
 
-.otherline > p{
-    padding-bottom:20px;
+.otherline>p {
+    padding-bottom: 20px;
     font-family: Arial, Helvetica, sans-serif;
     text-align: center;
     color: #8b0421;
     font-size: 20px;
 }
 
-
-.artigo_conteiner{
+.artigo_conteiner {
     background-color: black;
     padding: 30px;
-    color: #fff;
+    color: rgba(255, 255, 255, 0.658);
     font-family: Arial, Helvetica, sans-serif;
     font-size: small;
+    white-space: normal;
 }
 
-.range_conteiner2{
-    background-color:#35030e;
+.range_conteiner2 {
+    background-color: #35030e;
     padding: 10px;
+}
+
+@media only screen and (max-width: 500px) {
+    .img_range_conteiner>img {
+        width: 110px;
+        display: flexbox;
+        justify-content: center;
     }
+    .img_range_conteiner2>img {
+        width: 110px;
+        display: flexbox;
+        justify-content: center;
+    }
+    .otherline>img {
+        width: 130px;
+        display: flexbox;
+        justify-content: center;
+    }
+}

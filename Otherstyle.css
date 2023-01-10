@@ -93,3 +93,9 @@ a:link {
     color: white;
     transform: rotateY(180deg);
 }
+
+@media only screen and (max-width: 350px) {
+    .img_range_conteiner>img {
+        width: 100px;
+    }
+}
